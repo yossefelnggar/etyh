@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kenzly - كنزك الرقمي</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(to bottom right, #0f172a, #1e293b);
+        color: #fff;
+        line-height: 1.7;
+        overflow-x: hidden;
+      }
+
+      .fade-in {
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadeInUp 1s ease-out forwards;
+      }
+
+      @keyframes fadeInUp {
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      header {
+        padding: 3rem 1.5rem;
+        text-align: center;
+        background: linear-gradient(to right, #7c3aed, #6366f1);
+      }
+
+      header h1 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+      }
+
+      header p {
+        font-size: 1.2rem;
+        max-width: 700px;
+        margin: 0 auto;
+      }
+
+      .section {
+        padding: 2rem 1.5rem;
+        max-width: 900px;
+        margin: auto;
+      }
+
+      .section h2 {
+        color: #60a5fa;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        border-bottom: 1px solid #334155;
+        padding-bottom: 0.5rem;
+      }
+
+      .roles {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1.5rem;
+      }
+
+      .role {
+        background-color: #1e293b;
+        padding: 1rem 1.5rem;
+        border: 1px solid #334155;
+        border-radius: 10px;
+      }
+
+      .role h3 {
+        margin-top: 0;
+        color: #38bdf8;
+        font-size: 1.3rem;
+      }
+
+      .footer {
+        text-align: center;
+        padding: 2rem;
+        color: #cbd5e1;
+        font-size: 0.9rem;
+      }
+
+      .whatsapp-btn {
+        display: block;
+        width: fit-content;
+        margin: 2rem auto;
+        background-color: #25d366;
+        color: white;
+        padding: 0.75rem 1.5rem;
+        border-radius: 30px;
+        text-decoration: none;
+        font-weight: bold;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        transition: background-color 0.3s;
+      }
+
+      .whatsapp-btn:hover {
+        background-color: #1ebc57;
+      }
+
+      @media (max-width: 500px) {
+        header h1 {
+          font-size: 2.2rem;
+        }
+
+        .section h2 {
+          font-size: 1.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="fade-in">
+      <h1>Kenzly</h1>
+      <p>
+        منصة عربية وعالمية لبيع وابتكار المنتجات الرقمية، تفتح الطريق أمام
+        المبدعين لتحويل مهاراتهم إلى دخل مستدام.
+      </p>
+    </header>
+
+    <section class="section fade-in">
+      <h2>💡 الفكرة الأساسية</h2>
+      <p>
+        مشروع Kenzly يهدف إلى بناء منصة تجارة رقمية سهلة وقوية، تمكّن المبدعين
+        من بيع منتجاتهم الرقمية، سواء كانت كتب، أدوات، تصميمات، أو حتى توليدات
+        ذكية. نعمل على خلق بيئة متكاملة تدعم اللغة العربية والعالمية، وتركز على
+        الجودة، البساطة، والذكاء في تجربة المستخدم.
+      </p>
+    </section>
+
+    <section class="section fade-in">
+      <h2>🔎 الفريق المطلوب حاليًا</h2>
+      <div class="roles">
+        <div class="role">
+          <h3>🧠 مطور ذكاء صناعي</h3>
+          <p>
+            لدمج تقنيات التوليد والتحليل الذكي داخل المنصة لتقديم تجربة فريدة
+            للمستخدمين.
+          </p>
+        </div>
+        <div class="role">
+          <h3>🧱 مطور Backend</h3>
+          <p>
+            مسؤول عن بناء البنية التحتية، قواعد البيانات، الـ APIs، وتأمين
+            البيانات.
+          </p>
+        </div>
+        <div class="role">
+          <h3>🎨 مصمم UI/UX</h3>
+          <p>
+            لابتكار واجهات استخدام جذابة، متوافقة مع احتياجات السوق العربي
+            والعالمي.
+          </p>
+        </div>
+        <div class="role">
+          <h3>📈 Growth Hacker</h3>
+          <p>
+            لوضع استراتيجيات نمو وتسويق ذكية تسرّع وصول المنصة للفئة المستهدفة.
+          </p>
+        </div>
+        <div class="role">
+          <h3>🛡️ DevOps / Security</h3>
+          <p>
+            لضمان التشغيل المستمر والأمن الرقمي الكامل للمنصة مع قابلية التوسع.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <a
+      href="https://wa.me/201145473068"
+      class="whatsapp-btn fade-in"
+      target="_blank"
+    >
+      تواصل معنا عبر واتساب
+    </a>
+
+    <div class="footer fade-in">
+      تواصل على الإيميل: yossefelnggar98@gmail.com - واتساب: +201145473068
+    </div>
+  </body>
+</html>
